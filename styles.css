@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300;400;700&display=swap');
+
+#logo-me {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    /*margen superior */
+}
+
+
+#seite2 {
+    padding-top: 0.5px;
+    background-color: #C8EFF8;
+    margin-top: 300px;
+}
+
+#pavoreal {
+    border-radius: 50%;
+    /*forma redonda */
+    width: 429px;
+    height: 431px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    margin-top: 80px;
+}
+
+.menu-button a {
+    /* Dimensiones */
+    width: 178px;
+    height: 50px;
+
+    display: flex;
+    /* centrar texto */
+    justify-content: center;
+    /*centrar horizontalmente */
+    align-items: center;
+    /*centrar texto verticalmente */
+    border-radius: 20px;
+    background-color: #DCBB03;
+    font-family: 'Inter', sans-serif;
+    color: #6A08F4;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+h3.menu-button {
+    margin-bottom: 10px;
+    background-color: #DCBB03;
+    color: #6A08F4;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    width: 178.27px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.willkommen-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    margin-top: 100px;
+    padding: 40px;
+    margin-left: 100px;
+
+    /* Color de fondo para la sección */
+}
+
+.Das-Bin-Ich {
+    margin-left: 240px;
+    max-width: 980px;
+    /* Ajusta este valor según tu diseño */
+    text-align: justify;
+}
+
+.Das-Bin-Ich h3 {
+    font-weight: bold;
+}
+
+.willkommen-text h3 {
+    font-weight: bold;
+}
+
+.willkommen-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.willkommen-photo {
+    flex: 1;
+    text-align: center;
+}
+
+.willkommen-photo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 30px;
+    height: 325px;
+    width: 245px;
+    /* Para una imagen redonda */
+}
+
+.willkommen-hallo {
+    flex: 2;
+    color: #9F8329;
+    font-family: 'Sansita Swashed', cursive;
+    padding-left: 40px;
+}
+
+.willkommen-hallo h1 {
+    font-size: 33px;
+    font-weight: 300;
+    /* Texto más delgado */
+    margin-bottom: 40px;
+    /* Más espacio entre el título y el subtítulo */
+    line-height: 1.2;
+    /* Ajuste de interlineado */
+}
+
+.willkommen-hallo h2 {
+    font-size: 22px;
+    font-weight: 300;
+    /* Texto más delgado */
+    line-height: 2.5;
+    /* Más espacio entre líneas */
+    margin-top: 0;
+    /* Elimina el margen superior */
+}
+
+.willkommen-text {
+    color: #9F8329;
+    font-family: 'Playpen Sans';
+    font-size: 20px;
+}
+
+.lebensmotto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 32px;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    max-width: 690px;
+    height: var(--height, 160px);
+    /* 160px por defecto si no se especifica */
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    margin: 40px auto;
+    padding-top: 30px;
+    margin-top: 40px;
+    /* Asegura que haya separación entre los bloques */
+    padding: 20px;
+    /* Da espacio dentro del contenedor */
+
+}
+
+.container a {
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    color: #9F8329;
+}
+
+.container li {
+    list-style-type: none;
+}
+
+#angebote {
+    margin-top: 150px;
+}
+
+#kurse {
+    margin-top: 100px;
+}
+
+#auflosungen {
+    margin-top: 100px;
+}
+
+#meditationen {
+    margin-top: 120px;
+}
+
+#kontakt {
+    margin-top: 100px;
+}
+
+#blog {
+    margin-top: 100px;
+}
+
+#testimonial {
+    margin-top: 100px;
+}
+
+.menu-button.center {
+    display: flex;
+    justify-content: center;
+    /* Centrar horizontalmente */
+    margin-left: auto;
+    /* Centrar horizontalmente */
+    margin-right: auto;
+    /* Centrar horizontalmente */
+    padding-left: 0;
+    /* Eliminar el padding innecesario */
+}
+
+.menu-button.left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 23.7%;
+    padding-left: 0;
+
+
+
+}
+
+.feader1 {
+    height: 185px;
+    width: 150px;
+    left: 200;
+}
+
+.feader2,
+.feader-recht,
+.feader2-auf,
+.feader2-meditationen,
+.feader2-recht-meditationen,
+.feader2-links-kontakt,
+.feader2-recht,
+.feader2-recht-blog,
+.feader2-links-testimonials,
+.feader1 {
+    position: absolute;
+    height: 170px;
+    width: 200.53px;
+    top: 0;
+    z-index: 1;
+    top: -79px
+}
+
+section {
+    position: relative;
+    /* Todas las secciones serán contenedores de referencia */
+
+    /* Espacio entre secciones */
+}
+
+
+.feader2,
+.feader2-links-kontakt,
+.feader2-links-testimonials {
+    left: 360px;
+}
+
+.feader2-recht,
+.feader2-meditationen,
+.feader2-recht-blog {
+    left: 870px;
+}
+
+
+.feader2-auf {
+    left: 540px;
+}
+
+
+
+/*
+.feader2 {
+    position: absolute;
+    height: 185.86px;
+    width: 200.53px; 
+    /* Ajusta el tamaño si es necesario */
+/* top: 2950px;
+    /* Ajusta la posición verticalmente */
+/* left: 350px;
+    /* Ajusta la posición horizontalmente 
+} 
+
+.feader2-recht {
+    position: flex;
+    height: 170px;
+    width: 200.53px;
+    left: 870px;
+    top: 20px;
+
+}
+
+.feader2-auf {
+    position: absolute;
+    height: 170px;
+    width: 200.53px;
+    align-self: flex-end;
+    margin-left: 510px;
+    top: 973px;
+}
+
+.feader2-recht-meditationen {
+    position: absolute;
+    height: 140px;
+    width: 180.53px;
+    left: 800px;
+    top: 1436px;
+}
+
+.feader2-links-kontakt {
+    position: absolute;
+    height: 170px;
+    width: 200.53px;
+    left: 800px;
+    top: 1836px;
+}
+
+.feader2-links-kontakt {
+    position: absolute;
+    height: auto;
+    /* Ajusta la altura automáticamente 
+    width: 400px;
+    /* Aumenta el ancho para mejor visualización 
+    left: 800px;
+    top: 1836px;
+    display: flex;
+    justify-content: space-between;
+    /* Separa los dos grupos de información 
+} */
+.medien {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.kontakt {
+    margin-left: 0;
+    /* Ajusta el margen izquierdo */
+}
+
+.kontakt2 {
+    margin-right: 0;
+    /* Ajusta el margen derecho */
+}
+
+.kontakt li,
+.kontakt2 li {
+    margin: 10px 0;
+}
+
+.medien li a {
+    text-decoration: none;
+    color: inherit;
+    /* Mantén el color del texto consistente */
+}
+
+.kontakt2 li {
+    display: flex;
+    flex-direction: column;
+    /* Alinea los elementos verticalmente */
+    align-items: flex-start;
+    /* Alinea los elementos a la izquierda */
+}
+
+.kontakt2 i {
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.kontakt2 div {
+    margin-left: 24px;
+    /* Añade margen para alinear con el ícono */
+}
+
+#picFooter {
+    margin-bottom: -5px;
+    margin-left: 500px;
+}
+
+footer {
+    border-top: 20px solid blue;
+    /* Cambia el grosor y color según prefieras */
+    padding: 10px;
+    /* Espacio dentro del footer */
+    text-align: center;
+    /* Opcional: Centrar contenido */
+    width: 70%;
+    /* Ajusta el ancho de la raya */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+* Estilos para el modal */ .modal {
+    display: none;
+    /* Oculto por defecto */
+    position: fixed;
+    /* Posición fija */
+    z-index: 1;
+    /* Encima de todo */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    /* Habilitar scroll si es necesario */
+    background-color: rgb(0, 0, 0);
+    /* Fondo oscuro */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Fondo oscuro con transparencia */
+}
+
+/* Contenido del modal */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    /* 15% desde la parte superior y centrado */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    /* Ancho del modal */
+    max-width: 500px;
+    /* Ancho máximo */
+    top: 100%;
+    /* Inicia fuera de la pantalla (abajo) */
+    animation: slideUp 0.5s ease-out forwards;
+    /* Animación de deslizamiento */
+}
