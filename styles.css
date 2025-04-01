@@ -208,50 +208,83 @@ h3.menu-button {
     list-style-type: none;
 }
 
-/* === CSS MINIMALISTA FINAL === */
+/* === CSS FINAL AJUSTADO === */
 .preis-header {
     display: flex;
     font-family: 'Inter', sans-serif;
     color: #9F8329;
-    align-items: baseline;
-    /* Alinea los textos en su base */
-    margin-bottom: 500px;
+    margin-bottom: 60px;
+    margin-top: -250px;
+    margin-left: 70px;
 }
 
 .behandlung-column {
-    flex: 1;
-    min-width: 120px;
-    /* Ancho mínimo garantizado */
-    padding-right: 10px;
-    /* Espacio después de Behandlung */
-    margin-left: 70px;
-    /* Espacio antes de Behandlung */
+    width: 300px;
+    padding-right: 20px;
+    text-align: left;
 }
-
 
 .colum-prices {
     display: flex;
-    padding-inline: 60px;
-    justify-content: space-between;
-    gap: 50px;
-    margin-right: 250px;
-    /* Alinea los precios a los extremos */
+    gap: 100px;
+    margin-right: 100px;
+}
+
+.mexiko-column {
+    width: 150px;
+    text-align: right;
+}
+
+
+.chf-column {
+    width: 70px;
+    text-align: right;
+    margin-left: -20px; /* Ajuste para alinear CHF* con los números */
 }
 
 .preis-column h4 {
-    margin: 0 0 1px 0;
-    /* Espacio título-subtítulo reducido */
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2; /* Control de interlineado para títulos */
+}
+
+/* Ajuste específico para el título de México en dos líneas */
+.mexiko-column h4 {
+    white-space: nowrap;
+}
+
+.mexiko-column .subtext {
+    display: block;
+    margin-top: -5px; /* Ajuste fino de posición */
+}
+
+.subtext {
     font-size: 20px;
     font-weight: 600;
 }
 
-.subtext {
-    display: block;
-    font-size: 20px;
-    margin: 0;
-    line-height: 1;
-    /* Elimina espacio extra vertical */
-    font-weight: 600;
+.preis-row {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    color: #9F8329;
+    margin: 1px 0 0 70px;
+    align-items: center;
+}
+
+.preis-row .behandlung-column {
+    width: 300px;
+    text-align: left;
+}
+
+.preis-row .mexiko-column,
+.preis-row .chf-column {
+    width: 150px;
+    text-align: right;
+}
+
+.spaced-row {
+    margin-top: 15px;
 }
 
 #angebote {
