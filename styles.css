@@ -25,7 +25,7 @@ html {
     background-color: #C8EFF8;
     margin-top: 300px;
     padding-bottom: 100px;
-    margin-bottom: 180px;
+    margin-bottom: 220px;
 
 }
 
@@ -226,27 +226,28 @@ h3.menu-button {
 
 .colum-prices {
     display: flex;
-    gap: 100px;
+    gap: 50px;
     margin-right: 100px;
 }
 
 .mexiko-column {
     width: 150px;
-    text-align: right;
+    text-align: left;
 }
 
 
 .chf-column {
     width: 70px;
-    text-align: right;
-    margin-left: -20px; /* Ajuste para alinear CHF* con los números */
+    text-align: left;
+
 }
 
 .preis-column h4 {
     margin: 0;
     font-size: 20px;
     font-weight: 600;
-    line-height: 1.2; /* Control de interlineado para títulos */
+    line-height: 1.2;
+    /* Control de interlineado para títulos */
 }
 
 /* Ajuste específico para el título de México en dos líneas */
@@ -255,9 +256,11 @@ h3.menu-button {
 }
 
 .mexiko-column .subtext {
-    display: block;
-    margin-top: -5px; /* Ajuste fino de posición */
+    display: flex;
+    margin-top: auto;
+    /* Ajuste fino de posición */
 }
+
 
 .subtext {
     font-size: 20px;
@@ -270,6 +273,7 @@ h3.menu-button {
     color: #9F8329;
     margin: 1px 0 0 70px;
     align-items: center;
+    font-size: 20px;
 }
 
 .preis-row .behandlung-column {
@@ -279,8 +283,8 @@ h3.menu-button {
 
 .preis-row .mexiko-column,
 .preis-row .chf-column {
-    width: 150px;
-    text-align: right;
+    width: 200px;
+    text-align: left;
 }
 
 .spaced-row {
@@ -288,15 +292,15 @@ h3.menu-button {
 }
 
 #angebote {
-    margin-top: 150px;
+    margin-top: 120px;
 }
 
 #kurse {
-    margin-top: 100px;
+    margin-top: 120px;
 }
 
 #auflosungen {
-    margin-top: 100px;
+    margin-top: 120px;
 
 }
 
@@ -305,15 +309,15 @@ h3.menu-button {
 }
 
 #preise {
-    margin-top: 100px;
+    margin-top: 120px;
 }
 
 #blog {
-    margin-top: 100px;
+    margin-top: 120px;
 }
 
 #testimonial {
-    margin-top: 100px;
+    margin-top: 120px;
 }
 
 .menu-button.center {
@@ -518,6 +522,9 @@ footer {
 
 .flag-icon,
 .fa-globe {
-    margin-top: 3px;
+    width: 24px; /* o lo que mida tu flag-icon */
+    min-width: 24px;
+    text-align: center;
+  
     /* Ajuste fino para alinear con el texto */
 }
