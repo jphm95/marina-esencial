@@ -474,6 +474,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    color: #1A3BF4;
     /* Alinea los items al inicio */
 }
 
@@ -481,13 +482,26 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-left: 130px;
+    padding-left: 140px;
 }
 
 .marca {
+    align-items: center;
     font-weight: bold;
     margin-bottom: 10px;
-    margin-left: 50px;
+    margin-left: 48px;
+}
+
+.marca-phone{
+    
+    margin-bottom: 10px;
+    margin-left: 27px;
+}
+
+.marca-email{
+  
+    margin-bottom: 10px;
+    margin-left: -5px;
 }
 
 .medien {
