@@ -214,8 +214,8 @@ h3.menu-button {
     display: flex;
     font-family: 'Inter', sans-serif;
     color: #9F8329;
-    margin-bottom: 60px;
-    margin-top: -250px;
+    margin-bottom: 45px;
+    margin-top: auto;
     margin-left: 70px;
 }
 
@@ -275,6 +275,33 @@ h3.menu-button {
     margin: 1px 0 0 70px;
     align-items: center;
     font-size: 20px;
+}
+
+.preis-text1 {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    color: #9F8329;
+    margin: 1px 0 0 70px;
+    align-items: center;
+    font-size: 16px;
+    padding-right: 230px;
+
+}
+
+.preis-text2 {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    color: #9F8329;
+    margin: 1px 0 0 80px;
+    align-items: center;
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+
+
+.text-preis {
+    padding-top: 55px;
 }
 
 .preis-row .behandlung-column {
@@ -493,14 +520,14 @@ footer {
     margin-left: 48px;
 }
 
-.marca-phone{
-    
+.marca-phone {
+
     margin-bottom: 10px;
     margin-left: 27px;
 }
 
-.marca-email{
-  
+.marca-email {
+
     margin-bottom: 10px;
     margin-left: -5px;
 }
@@ -537,9 +564,10 @@ footer {
 
 .flag-icon,
 .fa-globe {
-    width: 24px; /* o lo que mida tu flag-icon */
+    width: 24px;
+    /* o lo que mida tu flag-icon */
     min-width: 24px;
     text-align: center;
-  
+
     /* Ajuste fino para alinear con el texto */
 }
