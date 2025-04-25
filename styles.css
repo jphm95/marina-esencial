@@ -63,6 +63,20 @@ html {
     margin: 30px 0 0 0;
 }
 
+.menu-button.center {
+    display: flex;
+    justify-content: center;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    padding-left: 0;
+    position: relative;
+    z-index: 2;
+
+}
+
 .menu-button a {
     /* Dimensiones */
     width: 178px;
@@ -507,7 +521,8 @@ footer {
 .pricing-card {
     background: #fff;
     border-radius: 1rem;
-    padding: 2rem;
+    padding: 2rem 0;
+    margin-left: 90px;
 }
 
   /* table reset & layout */
@@ -619,7 +634,7 @@ footer {
     
     .container li {
         list-style-type: none;
-        margin-left: 10px;
+        margin-left: 13px;
     }
     .Das-Bin-Ich {
         justify-content: center;
@@ -636,17 +651,23 @@ footer {
 
     .pricing-card {
         padding: 0px;
+        margin-left: 10px;
+    }
+    .note {
+        margin-left: 2px;
     }
     .note li{
-        margin-left: 0px;
+        margin-left: 2px;
         font-size: 10px;
     }
 
     .pricing-table th {
-        font-size: 14px;
+        font-size: 14px;        
+        padding: 0.75rem 0.2rem;
     }
     .pricing-table td {
         font-size: 12px;
+        padding: 0.75rem 0.2rem;
     }
 
     footer {
