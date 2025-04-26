@@ -115,20 +115,6 @@ h3.menu-button {
     text-align: center;
 }
 
-h3.menu-button {
-    margin-bottom: 10px;
-    background-color: #DCBB03;
-    color: #6A08F4;
-    font-family: 'Inter', sans-serif;
-    font-size: 20px;
-    width: 178.27px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
-    text-align: center;
-}
 
 .willkommen-home {
     display: flex;
@@ -285,7 +271,7 @@ h3.menu-button {
     margin-top: 100px;
 }
 
-#aufstellungen {
+#testimonial {
     margin-top: 100px;
 }
 
@@ -435,14 +421,14 @@ footer {
     justify-content: center;
     align-items: flex-start;
     color: #1A3BF4;
-    gap: 50px;    
+    gap: 100px;    
     max-width: 900px;
 }
 
 .redes-sociales {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: end;
     flex-direction: column;
 }
 
@@ -674,7 +660,10 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 20px;
+        gap: 50px;
+    }
+    .redes-sociales {
+        align-items: center;
     }
 
     .feader1-footer {
@@ -693,6 +682,10 @@ footer {
     
     .marca-email {
         margin-left: 0px;
+    }
+
+    h3.menu-button {
+        width: 163px;
     }
 }
 
