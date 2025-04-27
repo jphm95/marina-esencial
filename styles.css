@@ -686,8 +686,24 @@ footer {
     }
 
     h3.menu-button {
-        width: 163px;
+        width: 150gpx;
     }
+    
+    #kurse h3.menu-button,
+    #meditationen h3.menu-button,
+    #blog h3.menu-button {
+        margin-left: 40px;
+    }
+
+    #angebote h3.menu-button,
+    #auflosungen h3.menu-button,
+    #preise h3.menu-button,
+    #aufstellungen h3.menu-button{
+        margin-right: 40px;
+    }
+
+
+
 }
 
 @media (max-width: 640px) {
