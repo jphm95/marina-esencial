@@ -246,6 +246,11 @@ h3.menu-button {
     margin-left: 105px;
 }
 
+.container ul{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 #angebote {
     margin-top: 100px;
 }
