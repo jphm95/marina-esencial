@@ -738,8 +738,14 @@ footer {
     #aufstellungen h3.menu-button{
         margin-right: 40px;
     }
+     .podcast img {
+        width: 60%;
+        max-width: 250px;
+    }
 
-
+    .podcast iframe {
+        width: 80%;
+    }
 
 }
 
