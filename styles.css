@@ -27,9 +27,7 @@ html {
     align-items: center;
     text-align: center;
 }
-#auflosungen {
-    scroll-margin-top: 90px;
-}
+
 
 #logo-me img {
     width: 350px;
@@ -558,6 +556,23 @@ footer {
 .note li {
     margin-bottom: 0.25rem;
     margin-left: 0px;
+}
+
+.podcast {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Centrado estricto */
+    gap: 0rem;
+    width: 100%;
+    height: auto; /* Aseguramos que el contenedor se ajuste al contenido */
+}
+
+.podcast img,
+.podcast iframe {
+    margin: 0 auto; /* Centrado automático */
+    padding: 0;
+    display: block
 }
 
 @media (max-width: 820px) {
