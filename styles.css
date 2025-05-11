@@ -571,19 +571,20 @@ footer {
 
 .podcast img {
     width: 100%;
-    max-width: 400px; /* Tamaño máximo en pantallas grandes */
+    max-width: 550px; /* Tamaño máximo en pantallas grandes */
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    margin-bottom: 1rem; /* Espacio con el iframe */
+    margin-bottom: -.75rem; /* Espacio con el iframe */
 }
 
 .podcast iframe {
     width: 100%;
     max-width: 600px;
-    height: 80px;
+    height: 50px;
     border: none;
     margin: 0 auto; /* Centrado automático */
+    border-radius: 10px;
 }
 
 
