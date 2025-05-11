@@ -578,12 +578,12 @@ footer {
     margin-bottom: -.75rem; /* Espacio con el iframe */
 }
 
-.podcast iframe {
-    width: 100%;
+
+
+.podcast audio {
+    width: 80%;
     max-width: 600px;
-    height: 50px;
-    border: none;
-    margin: 0 auto; /* Centrado automático */
+    margin-top: 0.5rem;
     border-radius: 10px;
 }
 
