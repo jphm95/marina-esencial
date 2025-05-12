@@ -94,6 +94,25 @@ html {
 
 }
 
+.menu-button-sprache a{
+    width: 128px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border-radius: 20px;
+    background-color: #DCBB03;
+    color: #6A08F4;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 10px;    
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+}
+
 .menu-button a {
     /* Dimensiones */
     width: 178px;
