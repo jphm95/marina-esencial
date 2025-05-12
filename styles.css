@@ -21,6 +21,25 @@ html {
     /* Ajusta este valor según la altura de tu header */
 }
 
+.willkommen-hallo-home {
+    flex: 2;
+    color: #9F8329;
+    font-family: 'Sansita Swashed', cursive;
+    align-items: center;
+    min-width: 300px;
+}
+
+.willkommen-hallo-home h1 {
+    font-size: 40px;
+    font-weight: 300;
+    /* Texto más delgado */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* Más espacio entre el título y el subtítulo */
+    line-height: 1.2;
+    /* Ajuste de interlineado */
+}
+
 .header-container {
     display: flex;
     flex-direction: column;
